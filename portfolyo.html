@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="portfolyo.css">
+    <script src="portfolyo.js"></script>
+    <title>Profesyonel Portfolyom</title>
+</head>
+<body>
+
+<div class="text-center">
+    <button class="btn btn-gunduz" onclick="temaDegistir('acik')">Gündüz Modu ☀️</button>
+    <button class="btn btn-gece" onclick="temaDegistir('kapali')">Gece Modu 🌙</button>
+    <button class="btn btn-mavi" onclick="temaDegistir('mavi')">Mavi Modu 💙</button>
+
+    <div class="dil-karti">
+        <h3 class="dil-baslik" id="dilGosterici">Bildiğim dilleri listeli görmek için butona tıkla</h3>
+        <button class="btn" style="background-color:#01ff01; color:black;" onclick="dilDegistir()">Sıradaki dil ↑</button>
+    </div>
+</div>
+
+<div id="metin">
+    <h2>Ben Kimim?</h2>
+    <p>
+        Merhaba, ben Bilal. Teknoloji dünyasına adımımı, kısıtlı imkanların içinde sınırsız hayaller kurarak attım. Bugün birçok profesyonelin zorlandığı C# dilinde algoritma kurmayı bir tutku haline getirmiş, HTML ve CSS’i ise bu mantığı dünyaya sunan birer fırça gibi kullanan bir yazılım aşığıyım.
+        <br><br>
+        Kendimi bir <span class="vurgu">Full-Stack adayı</span> olarak tanımlıyorum. Sadece kod yazmıyorum, geleceği inşa ediyorum.
+    </p>
+</div>
+
+<div style="max-width: 800px; margin: 0 auto;">
+    <h2 style="border-bottom:1px solid #333; padding-bottom:10px;">Temel Beceriler</h2>
+
+    <div class="yetenek">
+        <h3>HTML <span>%90</span></h3>
+        <div class="cubuk"><div class="cubuk-dolu" style="width:90%;"></div></div>
+    </div>
+
+    <div class="yetenek">
+        <h3>CSS <span>%85</span></h3>
+        <div class="cubuk"><div class="cubuk-dolu" style="width:85%;"></div></div>
+    </div>
+
+    <div class="yetenek">
+        <h3>C# <span>%80</span></h3>
+        <div class="cubuk"><div class="cubuk-dolu" style="width:80%;"></div></div>
+    </div>
+
+    <div class="yetenek">
+        <h3>JavaScript <span>%70</span></h3>
+        <div class="cubuk"><div class="cubuk-dolu" style="width:70%;"></div></div>
+    </div>
+
+    <div class="yetenek">
+        <h3>Python <span>%70</span></h3>
+        <div class="cubuk"><div class="cubuk-dolu" style="width:70%;"></div></div>
+    </div>
+
+    <div class="yetenek">
+        <h3>C++ <span>%50</span></h3>
+        <div class="cubuk"><div class="cubuk-dolu" style="width:50%;"></div></div>
+    </div>
+</div>
+
+</body>
+</html>
